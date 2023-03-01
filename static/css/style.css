@@ -57,8 +57,12 @@ header nav {
     font-family: var(--secondary-font);
     height: 40px;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
+}
+
+nav article:last-child {
+    display: flex;
 }
 
 nav a {
@@ -66,6 +70,10 @@ nav a {
     margin-left: 20px;
     text-decoration: none;
     color: inherit;
+}
+
+nav a:first-child {
+    margin-left: 0;
 }
 
 /*

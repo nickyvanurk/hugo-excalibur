@@ -1,6 +1,7 @@
 .container {
-    max-width: 960px;
+    max-width: 1000px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 /*
@@ -9,7 +10,7 @@ Navigation
 */
 
 header nav {
-    height: 50px;
+    height: 40px;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -17,7 +18,7 @@ header nav {
 
 nav a {
     display: block;
-    margin-left: 25px;
+    margin-left: 20px;
     text-decoration: none;
     color: inherit;
 }

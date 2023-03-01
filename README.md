@@ -2,6 +2,8 @@
 
 A responsive, clean and simple [Hugo](http://gohugo.io) theme for a personal website.
 
+:dagger: [Demo](https://nickyvanurk.github.io/hugo-excalibur/)
+
 ## Getting Started
 
 ### Installation

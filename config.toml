@@ -12,12 +12,36 @@ ignoreErrors = ["error-remote-getjson"]
 theme = "excalibur"
 
 [menu]
-
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "post"
+    name = "Blog"
+    url = "/post/"
+    weight = 2
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 10
+    weight = 3
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 4
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+  [[menu.main]]
+    identifier = "series"
+    name = "Series"
+    url = "/series/"
+    weight = 6
 
 [taxonomies]
 category = "categories"
@@ -25,28 +49,22 @@ tag = "tags"
 series = "series"
 
 [privacy]
-
   [privacy.vimeo]
     disabled = false
     simple = true
-
   [privacy.twitter]
     disabled = false
     enableDNT = true
     simple = true
-
   [privacy.instagram]
     disabled = false
     simple = true
-
   [privacy.youtube]
     disabled = false
     privacyEnhanced = true
 
 [services]
-
   [services.instagram]
     disableInlineCSS = true
-
   [services.twitter]
     disableInlineCSS = true

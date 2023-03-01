@@ -19,30 +19,10 @@ relativeURLs = true
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "post"
-    name = "Blog"
-    url = "/post/"
-    weight = 2
-  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
     weight = 3
-  [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    url = "/categories/"
-    weight = 4
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 4
-  [[menu.main]]
-    identifier = "series"
-    name = "Series"
-    url = "/series/"
-    weight = 6
 
 [taxonomies]
 category = "categories"

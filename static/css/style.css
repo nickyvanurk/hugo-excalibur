@@ -2,3 +2,22 @@
     max-width: 960px;
     margin: 0 auto;
 }
+
+/*
+Navigation
+========
+*/
+
+header nav {
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    margin-left: 25px;
+    text-decoration: none;
+    color: inherit;
+}

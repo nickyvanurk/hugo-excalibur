@@ -22,3 +22,19 @@ nav a {
     text-decoration: none;
     color: inherit;
 }
+
+/*
+Homepage
+========
+*/
+
+.categories {
+    display: flex;
+    justify-content: between;
+    flex-wrap: wrap;
+}
+
+.category {
+    text-transform: capitalize;
+    width: calc(100% / 3);
+}

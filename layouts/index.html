@@ -1,3 +1,14 @@
 {{ define "main" }}
 {{ .Content }}
+
+<section class="categories">
+    {{ range $term, $weightedPages := .Site.Taxonomies.categories }}
+    <article class="category">
+        <h2>{{ $term }}</h2>
+        {{ range $weightedPages }}
+            <a href="{{ .Permalink}}">{{ .LinkTitle }}</a>
+        {{ end }}
+    </article>
+    {{ end }}
+</section>
 {{ end }}

@@ -47,6 +47,13 @@ code {
     font-family: var(--code-font);
 }
 
+pre {
+    padding: 30px 40px;
+    margin: 20px -40px;
+    overflow: auto;
+    border-radius: 1rem;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;

@@ -20,8 +20,9 @@ $dark-smoke: #4a4d56;
 $dark-gray: #767f87; */
 
 :root {
-    --primary-font: 'DM Sans', sans-serif;
-    --secondary-font: 'Exo 2', sans-serif;
+    --primary-font: 'IBM Plex Sans', sans-serif, 'Noto Color Emoji';
+    --secondary-font: 'Noto Sans', sans-serif, 'Noto Color Emoji';
+    --code-font: 'Noto Sans Mono', monospace;
 }
 
 body {
@@ -38,8 +39,12 @@ a:hover {
     color: #ff2957;
 }
 
-h1, h2, h3 {
+p {
     font-family: var(--secondary-font);
+}
+
+code {
+    font-family: var(--code-font);
 }
 
 .container {

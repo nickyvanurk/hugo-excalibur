@@ -138,3 +138,17 @@ Homepage
 .category a {
     display: block;
 }
+
+/*
+Single
+========
+*/
+
+.entry-title {
+    margin-bottom: 0.4em;
+}
+
+.entry-author {
+    font-size: 0.9em;
+    color: gray;
+}

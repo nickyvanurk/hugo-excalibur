@@ -1,10 +1,10 @@
 {{ define "main" }}
 <article>
     <h1 class="entry-title">{{ .Title }}</h1>
-    <span>
+    <span class="entry-author">
         {{ .Params.author }}
         {{ .ReadingTime }} {{ if eq .ReadingTime 1 }} minute {{ else }} minutes{{ end }}
     </span>
-    <p>{{ .Content }}</p>
+    {{ .Content }}
 </article>
 {{ end }}

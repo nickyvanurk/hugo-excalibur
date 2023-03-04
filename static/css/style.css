@@ -19,19 +19,18 @@ $dark-light: #1b1d25;
 $dark-smoke: #4a4d56;
 $dark-gray: #767f87; */
 
+/* #14161E nice dark black */
+
 :root {
     --primary-font: 'IBM Plex Sans', sans-serif, 'Noto Color Emoji';
     --secondary-font: 'Noto Sans', sans-serif, 'Noto Color Emoji';
     --code-font: 'Noto Sans Mono', monospace;
 }
 
-html {
+body {
     font-family:  var(--primary-font);
     font-size: clamp(16px, 1.9vw, 18px);
-    color: #161616;
-}
-
-body {
+    color: #222;
     margin-top: 20px;
 }
 
@@ -48,6 +47,7 @@ p {
     font-family: var(--secondary-font);
     margin-bottom: 28px;
     line-height: 1.7;
+    color: #444;
 }
 
 code {
